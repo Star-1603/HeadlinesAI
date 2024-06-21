@@ -48,7 +48,5 @@ def main():
         except Exception as e:
             st.error(f"Error: {str(e)}")
 main()
-# Button for Content Generation
-icon_button = '''<button class="btn"><i class="fas fa-home"></i> Home</button>'''
     
 st.markdown(icon_button, unsafe_allow_html=True)
