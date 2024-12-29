@@ -48,5 +48,3 @@ def main():
         except Exception as e:
             st.error(f"Error: {str(e)}")
 main()
-    
-st.markdown(icon_button, unsafe_allow_html=True)
